@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: url(../img/theme.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+
+}
+
+            /* 1 index nav bar starts here */
+header{
+    /* background-color:#03adfc; */
+    background-image: url(../img/main.theme.jpg);
+    width: 960px;
+    height: 10vh;
+    margin: 0 auto;
+    display: table;
+    border-radius: 0 0 50px 50px;
+    font-family: 'Anton', sans-serif;
+}
+
+h1{
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 25px;
+
+}
+.navbar{
+    float: right;
+    padding-right: 25px;
+    height: 10vh;
+    display: table;
+          /* background-color:green; */
+}
+
+.navbar li{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 25px;
+
+}
+.navbar a:hover{
+    color: blue;
+    transition:0.6s ease;
+    font-size: 35px;
+}
+
+ .navbar li a{
+    text-decoration: none;
+    padding: 10px; 
+    color: white;
+ }
+            /* 1 index small nav bar starts here */
+ .info{
+    position: relative;
+    height: 10vh;
+    margin: 0 auto;
+    /* display: table; */
+    width: 1217px;
+    top: 134px;
+}
+.info h2{
+
+    background-color:#03adfc;
+    height: 138px;
+    width: 119px;
+    border-radius: 50px 0 0 50px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+                /* 1 index.html main elements starts here */
+main{
+    /* background-color:black; */
+    background-image: url(../img/main.theme.jpg);
+    width: 960px;
+    min-height: 50vh;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 130px;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0 50px 50px 50px;
+
+}
+
+
+img{
+    margin: 30px 30px 30px 0px;
+    float: left;
+}
+p{
+    color: white;
+    bottom: 182px;
+    padding-left: 10px;
+    margin: 26px;
+    letter-spacing: 1px;
+    word-spacing: 9px;
+    line-height: 1.6em;
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+/* 2 portfolio starts here */
+.smnav{
+                /* background-color: blue; */
+    position: relative;
+    height: 10vh;
+    margin: 0 auto;
+                /* display: table; */
+    width: 982px;
+    top: 74px;
+            }
+.smnav h2{
+    color: white;
+    letter-spacing: 0.5em;
+    background-color:#03adfc;
+    height: 60px;
+    width: 981px;
+    border-radius: 50px 50px 0 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+            }
+            
+.mainportfolio{
+    background-color: rgba(82, 62, 62, 0.219);
+    width: 960px;
+    min-height: 50vh;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 130px;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0 0px 50px 50px;
+            }
+.mainportfolio form{
+            
+                /* color: #03adfc; */
+    line-height: 45px;
+    margin: 10px 35px 10px 35px;
+            }
+form input{
+    width: 100%;
+    height: 35px;
+    border-color: lightblue;
+    border-radius: 50px;
+                /* color: white; */
+    background-color: antiquewhite;
+    font-family: 'Anton', sans-serif;
+            }
+form textarea{
+    width: 100%;
+    height: 140px;
+    border-color:#03adfc;
+    border-radius: 0 0 50px 50px;
+    background-color:antiquewhite;
+    font-family: 'Anton', sans-serif;
+            }
+form button{
+    background-color: #03adfc;
+    height: 45px;
+    width: 150px;
+    border-radius: 50px;
+    color: white;
+    font-size: 19px;
+            }
+            
+input:hover{
+    font-size: 19px;
+     background-color: lightblue;
+            }
+textarea:hover{
+    font-size: 19px;
+    background-color: lightblue;
+            }
+form h3{
+            
+    color: white;
+            }
+
+/* 3 contact starts here */
+
+.smnav{
+    /* background-color: blue; */
+    position: relative;
+    height: 10vh;
+    margin: 0 auto;
+    /* display: table; */
+    width: 982px;
+    top: 74px;
+}
+.smnav h2{
+    color: white;
+    letter-spacing: 0.5em;
+    background-color:#03adfc;
+    height: 60px;
+    width: 981px;
+    border-radius: 50px 50px 0 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+.mainportfolio{
+    background-color: rgba(82, 62, 62, 0.219);
+    width: 960px;
+    min-height: 50vh;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 130px;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0 0px 50px 50px;
+            }      
+
+.photo{
+    margin:20px 20px 20px 20px;
+}
+.photo1{
+    margin-left: 386px;
+    margin-top:4px;
+}
+h4{
+    position:absolute;
+    bottom: 232px;
+    left: 46%;
+    color: grey;
+}
+
+
+                /* 1, 2, 3 index footer starts here */
+footer{
+    /* background-color:#03adfc; */
+    background-image: url(../img/main.theme.jpg);
+    width: 960px;
+    height: 10vh;
+    margin: 0 auto;
+    display: table;
+    border-radius: 50px 50px 0 0;
+}
+
+footer span{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
